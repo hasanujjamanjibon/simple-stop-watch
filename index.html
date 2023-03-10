@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stop-Watch</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@1.25.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- main -->
+    <h3 class="text-6xl text-center underline mt-20">Stop-Watch</h3>
+    <main class="w-full h-[600px] flex justify-center items-center">
+      <div class="w-2/4 shadow-2xl bg-slate-100 p-10">
+        <p id="counter" class="text-5xl font-bold text-center">0</p>
+        <div class="text-center py-6">
+          <button id="btn-start" class="btn-lg btn">start</button>
+          <button id="btn-pause" class="btn-lg btn btn-primary">pause</button>
+          <button id="btn-reset" class="btn-lg btn btn-secondary">reset</button>
+        </div>
+      </div>
+    </main>
+    <!-- script -->
+    <script src="./index.js"></script>
+  </body>
+</html>
